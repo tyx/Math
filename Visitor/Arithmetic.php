@@ -279,7 +279,7 @@ class Arithmetic implements \Hoa\Visitor\Visit {
                 'average' => xcallable($average),
                 'avg'     => xcallable($average),
                 'ceil'    => xcallable('ceil'),
-                'cos'     => xcallable('cos');
+                'cos'     => xcallable('cos'),
                 'count'   => xcallable(function ( ) {
                                  return count(func_get_args());
                              }),
